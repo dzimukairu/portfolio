@@ -6,6 +6,8 @@
 yarn dev
 ```
 
+<hr />
+
 ```
 "@badrap/bar-of-progress": "^0.2.2",
 "@fortawesome/fontawesome-svg-core": "^6.3.0",
@@ -30,5 +32,34 @@ yarn dev
 "tailwind-scrollbar-hide": "^1.1.7",
 "tailwindcss": "^3.2.7"
 ```
+
+<hr />
+
+## Sanity
+
+https://portfolio-dzimukairu.sanity.studio/
+
+<hr />
+
+## Fixes and Issues
+
+<br/>
+
+#### https://www.sanity.io/plugins/vercel-deploy
+
+<br/>
+
+#### https://stackoverflow.com/questions/74195100/vercel-error-eperm-operation-not-permitted-symlink
+
+<br/>
+
+```
+1. Run yarn dev in your project folder.
+2. Then run terminal as administrator and cd to your project folder then run vercel build command.
+3. After it finished successfully , delete the folder inside .vercel\output\functions\_next\data
+4. Then run vercel deploy prebuilt -> successful
+```
+
+<hr />
 
 (c) Sonny Sangha
